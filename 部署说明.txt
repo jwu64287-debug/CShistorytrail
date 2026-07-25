@@ -1,0 +1,12 @@
+﻿长沙历史步道 AI 智能体 GitHub Pages 静态网站包
+
+使用方式：
+1. 打开 GitHub 仓库。
+2. 进入网页上传文件界面。
+3. 进入本文件夹，选择 index.html、assets、data、.nojekyll 等所有内容一起上传到仓库根目录。
+4. GitHub Pages Source 选择 main / root，等待部署完成。
+
+说明：
+- 本包是纯静态网站，地图、路线、GIS 数据、页面展示可以直接使用。
+- DeepSeek API Key 不会写入静态包，避免公开泄露；公开 GitHub Pages 不能直接运行服务端代理。
+- 如需 DeepSeek 在线对话，需要部署到带 Serverless API 的平台，并在平台环境变量中配置 DEEPSEEK_API_KEY。
